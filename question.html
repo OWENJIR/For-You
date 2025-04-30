@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Halaman Pertanyaan</title>
+   <style>
+       body {
+           text-align: center;
+           background-image: url('background.jpeg'); /* Menetapkan gambar latar belakang */
+           background-size: cover; /* Mengubah ukuran gambar agar memenuhi layar */
+           background-position: center; /* Menyelaraskan gambar agar tetap berada di tengah */
+           font-family: 'Arial', sans-serif;
+           color: rgb(255, 255, 255);
+           padding: 50px;
+       }
+       h1 {
+           font-size: 2em;
+       }
+       img {
+           width: 300px;
+           height: auto;
+           margin: 20px;
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+       }
+       button {
+           background-color: rgba(86, 121, 236, 0.7);
+           padding: 15px 30px;
+           font-size: 16px;
+           cursor: pointer;
+           border-radius: 10px;
+           border: none;
+           margin: 10px;
+           transition: background-color 0.3s ease;
+       }
+       button:hover {
+           background-color: rgba(86, 121, 236, 0.7);
+       }
+   </style>
+</head>
+<body>
+
+   <h1>Pick you current mood</h1>
+
+   <div class="button-group">
+    <div class="mood">
+      <img src="happy cat.jpeg" alt="Happy Cat">
+      <br>
+      <button onclick="window.location.href='happy.html'">Happy</button>
+    </div>
+    <div class="mood">
+      <img src="sad cat.jpeg" alt="Sad Cat">
+      <br>
+      <button onclick="window.location.href='sad.html'">Sad</button>
+    </div>
+    <div class="mood">
+      <img src="angry cat.jpeg" alt="Angry Cat">
+      <br>
+      <button onclick="window.location.href='angry.html'">Angry</button>
+    </div>
+    <div class="mood">
+      <img src="flat cat.jpeg" alt="Flat Cat">
+      <br>
+      <button onclick="window.location.href='flat.html'">Flat</button>
+    </div>
+  </div>
+</body>
+</html>
